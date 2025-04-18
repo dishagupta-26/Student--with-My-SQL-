@@ -6,7 +6,7 @@ public class DBConnection {
         Connection con = null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/StudentJava", "root", "Disha@26");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/StudentJava", "root", "password");
         } catch (Exception e) {
             System.out.println("Connection Error: " + e.getMessage());
         }
