@@ -27,8 +27,3 @@ CREATE TABLE IF NOT EXISTS students (
 2. Update your MySQL username and password in `DBConnection.java`.
 
 3. Compile and run `Main.java` from the `src/` folder.
-
-## Author
-Ms. Disha Deepak Gupta  
-PRN: 24070126513  
-Batch: B.Tech AI & ML (2023-27)
